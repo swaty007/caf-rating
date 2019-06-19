@@ -21,10 +21,13 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         '//cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css',
+        '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css',
+        'css/slick/slick-theme.css',
         'css/site.css',
     ];
     public $js = [
         '//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js',
+        '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js',
         'js/main.js',
     ];
     public $jsOptions = array(

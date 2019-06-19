@@ -1,7 +1,7 @@
 <!--<pre>--><?php //var_dump($data); ?><!--</pre>-->
 <div class="row">
     <div class="col-md-12">
-        <h2 class="sub-title text-center">
+        <h2 class="sub-title text-center african">
             <span class="color-orange">Rating</span> of participants
         </h2>
 
