@@ -424,16 +424,17 @@ table.table-pm tr td {
     font-family: 'Gilroy', 'Roboto', sans-serif;
     background-color: #ffcf12;
     font-size: 25px;
-    font-weight: normal;
-    color: #212121;
+    font-weight: 600;
+    color: #212121!important;
     width: 260px;
     display: block;
     margin: 0 auto 8px;
     border-radius: 28px;
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: none!important;
     outline: none;
 }
+
 .three-circle-block {
     margin-bottom: 80px;
     margin-top: 40px;
@@ -532,6 +533,8 @@ table.table-pm tr td {
 .term-btn {
     display: block;
     margin-bottom: 40px;
+    text-decoration: none!important;
+    color: #000!important;
 }
 @media (max-width: 991px) {
     .terms-wrap {
