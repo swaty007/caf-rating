@@ -1,19 +1,20 @@
 @font-face{
     font-family: 'African';
-    src: url('fonts/african.ttf');
-    /*src: url('fonts/african.ttf') format('truetype');*/
+    src: url('fonts/african.woff');
+    src: url('fonts/african.ttf') format('truetype'),
+    url('fonts/african.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
-    font-family: 'Gilroy', 'Roboto';
+    font-family: 'Gilroy';
     /*src: url('fonts/Gilroy-ExtraBold.otf');*/
     src: url('fonts/Gilroy-ExtraBold.otf') format('opentype');
     font-weight: 600;
     font-style: normal;
 }
 @font-face{
-    font-family: 'Gilroy', 'Roboto';
+    font-family: 'Gilroy';
     /*src: url('fonts/Gilroy-Light.otf');*/
     src: url('fonts/Gilroy-Light.otf') format('opentype');
     font-weight: 400;
@@ -383,7 +384,7 @@ table.table-pm tr td {
     line-height: 1;
     font-family: 'African', 'Roboto', 'Gilroy', sans-serif;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 500;
     color: #212121;
     margin-bottom: 40px;
 }
