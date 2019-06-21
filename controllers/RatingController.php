@@ -57,7 +57,7 @@ class RatingController extends Controller
         }
 
         if (is_null($type)) {
-            $data['data'] = ['online' => $data_filter['online']];
+            $data['data'] = ['online' => isset($data_filter['online']) ? $data_filter['online'] : []];
         } else {
             if(array_key_exists($type, $data_filter)) {
                 $this->hiddenlayout = false;
