@@ -60,6 +60,7 @@ class SiteController extends Controller
      *
      * @return string
      */
+    public $hiddenlayout = true;
     public function actionIndex()
     {
         return $this->render('index');
